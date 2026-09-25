@@ -112,43 +112,6 @@ about the user, role, requested resource, and access result.
 
 This provides basic audit information for security monitoring.
 
-## Zero-Trust Architecture
-
-```mermaid
-flowchart LR
-    U[User / Device] --> Z[Zero-Trust Access Layer]
-
-    Z --> A[Authentication]
-    A --> P[Authorization / Least Privilege]
-
-    P -->|Allowed| R[Protected Resources]
-    P -->|Denied| D[Access Denied]
-
-    Z --> C[Credential Rotation]
-    C --> CS[Credential Store]
-
-    D --> AL[Security Alert]
-    AL --> S[Slack Alert Simulation]
-
-    Z --> L[Audit Logs]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
