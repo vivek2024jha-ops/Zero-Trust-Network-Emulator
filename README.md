@@ -116,6 +116,25 @@ This provides basic audit information for security monitoring.
 
 
 
+
+
+
+
+Security Principles
+Verify every access request
+Least-privilege authorization
+Authentication before resource access
+Credential rotation
+Security alerts for suspicious activity
+Audit logging
+
+
+
+
+
+
+
+
 ## Architecture
 
 ```mermaid
@@ -133,16 +152,6 @@ flowchart LR
 
     D --> AL[Security Alert]
     AL --> S[Slack Alert]
-
-
-
-Security Principles
-Verify every access request
-Least-privilege authorization
-Authentication before resource access
-Credential rotation
-Security alerts for suspicious activity
-Audit logging
 Disclaimer
 
 This project is an educational security emulator and does not
