@@ -1,8 +1,6 @@
 # Zero-Trust-Network-Emulator
 
 
-# Zero-Trust-Network-Emulator
-
 ## Project Overview
 
 The Zero-Trust Network Emulator is a Python-based cybersecurity project
